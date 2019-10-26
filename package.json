@@ -1,6 +1,6 @@
 {
   "name": "node-eposnow",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js wrapper for EPOSNOW API",
   "main": "index.js",
   "directories": {
