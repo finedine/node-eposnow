@@ -123,6 +123,7 @@ const brands = await eposnow.v4.brand.list({page: 2});
 | v4/Customer                    | CREATE   | v4.customer.create(body)                   | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Customer)                    |
 | v4/Customer                    | UPDATE   | v4.customer.update(body)                   | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Customer)                    |
 | v4/Customer                    | DELETE   | v4.customer.delete(body)                   | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Customer)                    |
+| v4/Customer/GetByEmail         | GET      | v4.customer.get(email=<email>)                    | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Customer/CustomerGETByemailAndpage)                    |
 | v4/CustomerPoints              | CREATE   | v4.customerpoints.create(body)             | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/CustomerPoints)              |
 | v4/CustomerReferenceCode       | LIST     | v4.customerreferencecode.list()            | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/CustomerReferenceCode)       |
 | v4/CustomerReferenceCode       | GET      | v4.customerreferencecode.get(Id)           | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/CustomerReferenceCode)       |
