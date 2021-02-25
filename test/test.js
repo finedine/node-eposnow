@@ -11,6 +11,8 @@ const apiSecret = ""; // <--- Change to your API Secret.
 
 const eposnow = new NodeEPOSNow(accessToken);
 
+const validation = "{}";
+
 describe("node-eposnow initialize", () => {
   it("should return brands", async () => {
     const response = await eposnow.v4.brand.list();
@@ -20,5 +22,11 @@ describe("node-eposnow initialize", () => {
     eposnow.authenticate(apiKey, apiSecret);
     const response = await eposnow.v4.brand.list();
     expect(response).to.be.an("array");
+  });
+  it("should validate transaction", async () => {
+    const response = await eposnow.v4.transactionvalidate.create(
+      JSON.parse(validation)
+    );
+    expect(response).to.be.an("object");
   });
 });
