@@ -14,4 +14,8 @@ describe("node-eposnow initialize", () => {
     const response = await eposnow.v4.brand.list();
     expect(response).to.be.an("array");
   });
+  it("should return brands", async () => {
+    const response = await eposnow.v4.brand.list();
+    expect(response).to.be.an("array");
+  });
 });
