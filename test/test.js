@@ -1,4 +1,4 @@
-const NodeEPOSNow = require("../lib/eposnow");
+const NodeEPOSNow = require("../index");
 
 const assert = require("assert");
 const chai = require("chai");
