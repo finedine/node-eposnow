@@ -81,6 +81,8 @@ const brands = await eposnow.v4.brand.list({page: 2});
 | v4/CategoryReferenceCode       | DELETE   | v4.categoryreferencecode.delete(body)      | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/CategoryReferenceCode)       |
 | v4/Colour                      | LIST     | v4.colour.list()                           | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Colour)                      |
 | v4/Colour                      | GET      | v4.colour.get(Id)                          | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Colour)                      |
+| v4/Location                    | LIST     | v4.location.list()                         | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Location)                      |
+| v4/Location                    | GET      | v4.location.get(Id)                        | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Location)                      |
 | v4/MultipleChoiceNote          | LIST     | v4.multiplechoicenote.list()               | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/MultipleChoiceNote)          |
 | v4/MultipleChoiceNote          | GET      | v4.multiplechoicenote.get(Id)              | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/MultipleChoiceNote)          |
 | v4/MultipleChoiceProduct       | LIST     | v4.multiplechoiceproduct.list()            | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/MultipleChoiceProduct)       |
