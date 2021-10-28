@@ -155,6 +155,7 @@ const brands = await eposnow.v4.brand.list({page: 2});
 | v4/TenderType                  | LIST     | v4.tendertype.list()                       | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/TenderType)                  |
 | v4/TenderType                  | GET      | v4.tendertype.get(Id)                      | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/TenderType)                  |
 | v4/TenderType                  | CREATE   | v4.tendertype.create(body)                 | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/TenderType)                  |
+| v4/Transaction/GetLatest          | LIST     | v4.transaction/getlatest.list()                      | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Transaction)                 |
 | v4/Transaction                 | LIST     | v4.transaction.list()                      | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Transaction)                 |
 | v4/Transaction                 | GET      | v4.transaction.get(Id)                     | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Transaction)                 |
 | v4/Transaction                 | CREATE   | v4.transaction.create(body)                | [Detail](https://developer.eposnowhq.com/Docs/v4/index#!/Transaction)                 |
